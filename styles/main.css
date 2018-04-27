@@ -2,63 +2,78 @@
 	margin:0;
 	padding: 0;
 }
-body{
-	background-color:#304545;
-}
 /*logobarra parte supperior*/
-.ind{
-	background: linear-gradient(#77777A,#9D9DA1)
+body{
+	background-color:black; 
 }
-.ind ul{
-	position: relative;
-	top: 0;
-	left:0;
-	right:0;
-	bottom:0;
-	margin: 0 auto;
+#ind{
+	bottom:0px;
+	top: 0px;
+	right:0px;
+	left: 0px;  
+	margin:0 auto;
+	width: 1366px;
+	height:60px; 
+	background-color:black; 
+	font-family:arial, helveltica,san-serif; 
+}
+.nad{
+	margin:auto;
+}
+ul,ol{
 	list-style: none;
-	width:300px;
-	height:50px;
+	width:800px; 
+	margin-left: 40px;
 }
-.ind{
-	background-color:black;
+.nad li a{
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;   
+	padding:18px 15px; 
+	display:block;  
+	margin: auto;
 }
-.ind ul{
-	position: relative;
-	top: 0;
-	left:0;
-	bottom:0;
-	list-style: none;
-	width:300px;
-	height:60px;
+
+.nad li a:hover{
+	background-color:#304545; 
 }
-.ind ul li{
-	text-align: center;
-	line-height:57px;
-	display:inline-block;
+.nad > li{
+ float:left; 
+ width:150px; 
+ height:50px;
 }
-a{
-	text-decoration: none;
+
+.nad li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
 }
-.clik{
-    padding: 16.8px 24px;
-    background-color:#304545;
-    border-bottom: solid 5px black;  
-}
-a:hover{
-    padding: 15px 20px;
-    background-color: #069C9A;
-    border-bottom: solid 5px #A0F8DD; 
-    transition-delay: 0px;
+.nad li:hover > ul{
+	display: block;
+	width:150px;
+	height: 30px; 
+
 }
 .logo {
     width: 300px;
-    height: 160px;
+    height: 170px;
     position: absolute;
-    top: -53px;
-    bottom:0px; 
-    left: -500px;
-    margin: 0 auto;
-    padding: -2px;
+    left:0px;
+    top:-45px;
+    margin-right:100px; 
+    margin:0 auto;
+    float: left;  
+   
+}
+.imenmov{
+	float:left;
+	width: 500px;
+	height: 60px;
+}
+.movimiento{
+	width:70px;
+	height:500px;
+	margin:auto;
+
 
 }
