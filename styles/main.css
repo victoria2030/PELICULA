@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color:#304545;
+}
+/*logobarra parte supperior*/
+.ind{
+	background: linear-gradient(#77777A,#9D9DA1)
+}
+.ind ul{
+	position: relative;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin: 0 auto;
+	list-style: none;
+	width:300px;
+	height:50px;
+}
+.ind{
+	background-color:black;
+}
+.ind ul{
+	position: relative;
+	top: 0;
+	left:0;
+	bottom:0;
+	list-style: none;
+	width:300px;
+	height:60px;
+}
+.ind ul li{
+	text-align: center;
+	line-height:57px;
+	display:inline-block;
+}
+a{
+	text-decoration: none;
+}
+.clik{
+    padding: 16.8px 24px;
+    background-color:#304545;
+    border-bottom: solid 5px black;  
+}
+a:hover{
+    padding: 15px 20px;
+    background-color: #069C9A;
+    border-bottom: solid 5px #A0F8DD; 
+    transition-delay: 0px;
+}
+.logo {
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    top: -53px;
+    bottom:0px; 
+    left: -500px;
+    margin: 0 auto;
+    padding: -2px;
+
+}
