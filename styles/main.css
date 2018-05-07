@@ -20,7 +20,12 @@ body{
 	z-index: 6;
 }
 .nad{
+	margin: auto;
+}
+.nar{
+	background: -webkit-linear-gradient(#F83636,#540505);
 	margin:auto;
+	height:200px; 
 }
 ul,ol{
 	list-style: none;
@@ -46,6 +51,7 @@ ul,ol{
  float:left; 
  width:150px; 
  height:50px;
+ z-index: 1;
 }
 
 .nad li ul{
@@ -70,9 +76,12 @@ ul,ol{
     float: left;  
 }
 .slider{
-	width: 1400px;
-	margin-left: 40px ;
+
+	width: 1200px;
+	margin-left: 80px;
+	top: 0px;
 	overflow: hidden;
+	z-index: 6;
 
 }
 .slider ul{
@@ -113,36 +122,43 @@ ul,ol{
 
 
 
-.comedia{
-	width: 280px;
-	height: 220px;
+
+.comedia {
+	width: 48px;
+	height: 1000px;
 	float: left;
-	margin:30px 40px; 
-	border:5px red solid ;
+	margin-left:100px; 
 }
-.comedia ul{
-	width: 250px;
-}
-.comedia img{
+.comedia img,.animadas img{
 	float: left;
 	margin:1px;
-	margin-bottom: 30px;
-	width: 70px;
-	height: 70px;
-	border-radius:0px 20px ;
+	margin:10px 15px 0px;
+	width: 250px;
+	height: 300px;
+	border-radius:0px 30px ;
 
+}
+.animadas{
+	margin-left:500px; 
+	width: 48px;
+	height: 1000px;
+	float: left;
 }
 .slitext{
 	height: 20px;
 	width: 30px;
 	color: white;
-	margin: 30px 35px 20px;
+	margin: 0px 35px 20px;
 }
-.comtex{
-    height: 20px;
-	width: 30px;
+.comtext{
+    font-size:20px;
 	color: white;
-	margin: 0px 35px 20px;	
+	margin-top:250px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin: auto;	
 }
+
 
 
