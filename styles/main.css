@@ -1,6 +1,7 @@
 *{
 	margin:0;
 	padding: 0;
+	z-index: 1;
 }
 /*logobarra parte supperior*/
 body{
@@ -12,10 +13,11 @@ body{
 	right:0px;
 	left: 0px;  
 	margin:0 auto;
-	width: 1366px;
+	width: 1345px;
 	height:60px; 
 	background-color:black; 
 	font-family:arial, helveltica,san-serif; 
+	z-index: 6;
 }
 .nad{
 	margin:auto;
@@ -26,14 +28,17 @@ ul,ol{
 	margin-left: 40px;
 }
 .nad li a{
-	background-color:#000;
+	
 	color:#fff;
 	text-decoration:none;   
 	padding:18px 15px; 
 	display:block;  
 	margin: auto;
 }
-
+.col li a{
+	background-color:#BBBBBB;
+	height: 50px; 
+}
 .nad li a:hover{
 	background-color:#304545; 
 }
@@ -63,17 +68,81 @@ ul,ol{
     margin-right:100px; 
     margin:0 auto;
     float: left;  
-   
 }
-.imenmov{
-	float:left;
-	width: 500px;
-	height: 60px;
-}
-.movimiento{
-	width:70px;
-	height:500px;
-	margin:auto;
-
+.slider{
+	width: 1400px;
+	margin-left: 40px ;
+	overflow: hidden;
 
 }
+.slider ul{
+    list-style: none;
+    width: 2800px;
+    display: flex; 
+    animation: slider 24s infinite alternate;
+}
+.slider img{
+	width: 300px;
+	height:150px;
+	border-radius:10px; 
+} 
+
+
+@keyframes slider{
+	0%{margin-left:  0px;}
+	10%{margin-left: 0px;}
+
+	15%{margin-left: -300px;}
+	25%{margin-left: -300px;}
+
+	30%{margin-left: -600px;}
+	40%{margin-left: -600px;}
+
+	45%{margin-left: -900px;}
+	55%{margin-left: -900px;}
+
+	60%{margin-left: -1200px;}
+	70%{margin-left: -1200px;}
+
+	75%{margin-left: -1500px;}
+	85%{margin-left: -1500px;}
+
+	90%{margin-left: -1800px;}
+	100%{margin-left:-1800px;}
+}
+
+
+
+.comedia{
+	width: 280px;
+	height: 220px;
+	float: left;
+	margin:30px 40px; 
+	border:5px red solid ;
+}
+.comedia ul{
+	width: 250px;
+}
+.comedia img{
+	float: left;
+	margin:1px;
+	margin-bottom: 30px;
+	width: 70px;
+	height: 70px;
+	border-radius:0px 20px ;
+
+}
+.slitext{
+	height: 20px;
+	width: 30px;
+	color: white;
+	margin: 30px 35px 20px;
+}
+.comtex{
+    height: 20px;
+	width: 30px;
+	color: white;
+	margin: 0px 35px 20px;	
+}
+
+
