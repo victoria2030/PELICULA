@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding: 0;
-	z-index: 1;
+	z-index: 0;
 }
 /*logobarra parte supperior*/
 body{
@@ -21,6 +21,7 @@ body{
 }
 .nad{
 	margin: auto;
+	margin-left: 250px;
 }
 .nar{
 	background: -webkit-linear-gradient(#F83636,#540505);
@@ -28,8 +29,9 @@ body{
 	height:200px; 
 }
 ul,ol{
+
 	list-style: none;
-	width:800px; 
+	width:1300px; 
 	margin-left: 40px;
 }
 .nad li a{
@@ -89,11 +91,13 @@ ul,ol{
     width: 2800px;
     display: flex; 
     animation: slider 24s infinite alternate;
+    z-index: 6;
 }
 .slider img{
 	width: 300px;
 	height:150px;
 	border-radius:10px; 
+	z-index: 7;
 } 
 
 
@@ -122,12 +126,16 @@ ul,ol{
 
 
 
-
 .comedia {
 	width: 48px;
 	height: 1000px;
 	float: left;
 	margin-left:100px; 
+}
+
+.comedia section{
+	position: absolute;
+	background-color: #333;
 }
 .comedia img,.animadas img{
 	float: left;
@@ -136,7 +144,7 @@ ul,ol{
 	width: 250px;
 	height: 300px;
 	border-radius:0px 30px ;
-
+	
 }
 .animadas{
 	margin-left:500px; 
@@ -151,13 +159,13 @@ ul,ol{
 	margin: 0px 35px 20px;
 }
 .comtext{
-    font-size:20px;
+    font-size:40px;
 	color: white;
-	margin-top:250px;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	margin: auto;	
+	margin-left:20px; 
+	width: 300px;
+	
+		
+}	
 }
 
 
