@@ -6,6 +6,7 @@
 /*logobarra parte supperior*/
 body{
 	background-color:black; 
+	font-family: "lato";
 }
 #ind{
 	bottom:0px;
@@ -21,6 +22,7 @@ body{
 }
 .nad{
 	margin: auto;
+
 	margin-left: 250px;
 }
 .nar{
@@ -29,7 +31,7 @@ body{
 	height:200px; 
 }
 ul,ol{
-
+	z-index: 2;
 	list-style: none;
 	width:1300px; 
 	margin-left: 40px;
@@ -125,47 +127,75 @@ ul,ol{
 }
 
 
-
-.comedia {
-	width: 48px;
-	height: 1000px;
-	float: left;
-	margin-left:100px; 
-}
-
-.comedia section{
-	position: absolute;
-	background-color: #333;
-}
-.comedia img,.animadas img{
-	float: left;
-	margin:1px;
-	margin:10px 15px 0px;
-	width: 250px;
-	height: 300px;
-	border-radius:0px 30px ;
-	
-}
-.animadas{
-	margin-left:500px; 
-	width: 48px;
-	height: 1000px;
-	float: left;
-}
 .slitext{
 	height: 20px;
 	width: 30px;
 	color: white;
 	margin: 0px 35px 20px;
 }
-.comtext{
-    font-size:40px;
-	color: white;
-	margin-left:20px; 
-	width: 300px;
-	
-		
+.por  img{
+ width: 240px;
+ height: 290px;
+
+
+  
+  
 }	
+
+.portafolio{
+	width: 90%;
+	max-width:1200px;
+	margin: auto;
+    
+}
+.portafolio h1 {
+	text-align: center;
+	font-size: 38px;
+	color: #fff;
+	margin: 15px 0px 40px 30px;
+}
+.portafolio-con{
+	width: 1100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+.por{
+	width: 240px;
+	height: 290px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom:30px;  
+	}
+.portafolio-img{
+	transform: all 0.5s; 
+}	
+.portafolio-text{
+
+	position: absolute;
+	color: #fff;
+	bottom: -10px;
+	padding: 30px 10px 10px 15px;
+	background: rgba(76, 0, 20,0.8);
+	transform: translateY(130%);
+	transition: all 0.4s ease-out;
+
+}
+.portafolio-text p{
+	text-align: center;
+	width:220px;
+	height:240px;
+	margin: auto;
+	 
+
+}
+.por:hover .portafolio-text{
+	transform: translateY(0%);
+}
+.por:hover .portafolio-img{
+	transform: scale(1.15);
+}
 
 
 
