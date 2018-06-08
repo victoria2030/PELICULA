@@ -1,11 +1,15 @@
+
 *{
 	margin:0;
 	padding: 0;
 	z-index: 0;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
 /*logobarra parte supperior*/
 body{
-	background-color:black; 
+	background-color:#fff; 
 	font-family: "lato";
 }
 #ind{
@@ -14,15 +18,22 @@ body{
 	right:0px;
 	left: 0px;  
 	margin:0 auto;
-	width: 1345px;
+	width: 1349px;
 	height:60px; 
 	background-color:black; 
 	font-family:arial, helveltica,san-serif; 
 	z-index: 6;
 }
+ #ind2{
+	
+	width: 1349px;
+	height:60px; 
+	background-color:black; 
+	font-family:arial, helveltica,san-serif; 
+	z-index: 6;
+} 
 .nad{
 	margin: auto;
-
 	margin-left: 250px;
 }
 .nar{
@@ -36,26 +47,26 @@ ul,ol{
 	width:1300px; 
 	margin-left: 40px;
 }
-.nad li a{
-	text-align: center;
-	color:#fff;
-	text-decoration:none;   
-	padding:18px 15px; 
-	display:block;
 
+.nad li a{
+	
+	color:#fff;
+	text-decoration:none; 
+	font-family: 'Indie Flower',cursive;
+	font-size: 17px;  
+	padding:18px 15px; 
+	display:block;  
+	margin: auto;
 	
 }
 .col li a{
 	background-color:firebrick;
-	height: 30px;
-	margin: auto; 
-	border:2px white ridge; 
-
+	height: 21px; 
+	border:2px solid black;
 }
 .nad li a:hover{
 	background-color:#304545; 
 }
-
 .nad > li{
  float:left; 
  width:150px; 
@@ -73,8 +84,8 @@ ul,ol{
 	width:150px;
 	height: 30px; 
 
-
 }
+
 .logo {
     width: 300px;
     height: 170px;
@@ -138,15 +149,20 @@ ul,ol{
 	width: 30px;
 	color: white;
 	margin: 0px 35px 20px;
+	font-family: 'Indie Flower', cursive;
 }
+
 .por  img{
  width: 240px;
- height: 290px;
+ height: 350px;
+ border: rgba(51, 0, 68, 0.5) solid;
+ box-sizing: border-box;
 
-
-  
-  
 }	
+.por img:hover{
+  border:rgba(255, 0, 1) solid;
+
+}
 
 .portafolio{
 	width: 90%;
@@ -155,9 +171,10 @@ ul,ol{
     
 }
 .portafolio h1 {
+	font-family: 'Indie Flower', cursive;
 	text-align: center;
 	font-size: 38px;
-	color: #fff;
+	color:black;
 	margin: 40px 0px 20px 15px;
 }
 .portafolio-con{
@@ -169,7 +186,7 @@ ul,ol{
 }
 .por{
 	width: 240px;
-	height: 290px;
+	height: 350px;
 	position: relative;
 	overflow: hidden;
 	margin-bottom:30px;  
@@ -178,23 +195,46 @@ ul,ol{
 	transform: all 0.5s; 
 }	
 .portafolio-text{
-
+    font-family: 'Indie Flower', cursive;
 	position: absolute;
 	color: #fff;
 	bottom: -10px;
 	padding: 30px 10px 10px 15px;
-	background: rgba(76, 0, 20,0.8);
-	transform: translateY(130%);
+	background: rgb(0, 0, 0, 0.9);
+	transform: translateY(100%);
 	transition: all 0s ease-out;
+	font-size:18px; 
 
 }
-.portafolio-text p{
+.portafolio-text h2{
+	font-size: 20px;
+	top:20px;
+	margin: auto;
+	color: #C44B09; 
+	text-align: center;
+}
+.ajus{
+	height:260px; 
+}
+
+.ti,.ajus{
 	text-align: center;
 	width:220px;
-	height:240px;
-	margin: auto;
-	 
-
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.clasificacion{
+	bottom: 0;
+	left: 0;
+	margin: 0 auto;
+	font-size: 15px;
+	transform: translate(-10px)
+	
+}
+.ti{
+	height:295px;
 }
 .por:hover .portafolio-text{
 	transform: translateY(0%);
@@ -202,7 +242,29 @@ ul,ol{
 .por:hover .portafolio-img{
 	transform: scale(1.15);
 }
+/* pagina dos */
 
+.comedia_log{
+	width:1349px ;
+	height:250px ;
+}
+.log_principio{
+	width: 1349px;
+	height: 250px;
+	overflow: hidden
+}	
 
+.log_principio section{
+	width: 1349x;
+	height: 250px;
+	position:relative;
+	color: #fff;
+	background: rgb(0, 0, 0, 0.7);
+	transform: translateY(0%);
+	transition: all 0s ease-out;
+}
+.log_principio:hover section{
+	transform: translateY(-254px)
+}
 
 
