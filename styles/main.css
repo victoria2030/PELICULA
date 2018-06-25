@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 /*logobarra parte supperior*/
+body{
+	background-image: url("../aseets/fondo.jpg");
+}
 
 
 #ind{
