@@ -8,10 +8,8 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 /*logobarra parte supperior*/
-body{
-	background-color:#fff; 
-	font-family: "lato";
-}
+
+
 #ind{
 	bottom:0px;
 	top: 0px;
@@ -87,7 +85,7 @@ ul,ol{
 }
 
 .logo {
-    width: 300px;
+    width: 250px;
     height: 170px;
     position: absolute;
     left:0px;
@@ -206,6 +204,11 @@ ul,ol{
 	font-size:18px; 
 
 }
+a{
+	text-decoration: none;
+	color: #fff;
+
+}
 .portafolio-text h2{
 	font-size: 20px;
 	top:20px;
@@ -214,7 +217,7 @@ ul,ol{
 	text-align: center;
 }
 .ajus{
-	height:260px; 
+	height:245px; 
 }
 
 .ti,.ajus{
@@ -234,7 +237,7 @@ ul,ol{
 	
 }
 .ti{
-	height:295px;
+	height:275px;
 }
 .por:hover .portafolio-text{
 	transform: translateY(0%);
@@ -264,7 +267,64 @@ ul,ol{
 	transition: all 0s ease-out;
 }
 .log_principio:hover section{
-	transform: translateY(-254px)
+	transform: translateY(-256.5px)
 }
+ .video1{
+	position: absolute;
+	width: 900px;
+	height: 515px;
+	bottom: 0;
+	top: 870px;
+	right: 0;
+	left: 50px;
+	margin: auto;
+} 
+ .video1 video{
+	width: 900px;
+	height: 510px;
+	
 
+} 
+.infopeliculas img{
+	position: relative;
+	width: 270px;
+	height:350px;	
+	top: 20px;
+	left:30px;
+	right:0;
+	bottom:0;
+	margin:auto;
+	float: left;
+}
+.infopeliculas h1{
+	font-family: 'Indie Flower', cursive;
+	text-align: left;
+	left:50px;
+	top: 40px;
+	position: relative;
+	color:black;
+	font-size: 40px;
 
+}
+.infopeliculas p{
+	font-family: 'Indie Flower', cursive;
+	text-align: justify;
+	left:50px;
+	top: 40px;
+	right: 30px;
+	position: relative;
+	color: rgb(94, 38, 5);
+	font-size: 20px;
+
+}
+.infopeliculas{
+	width: 1280px;
+	height: 300px;
+}
+.verp{
+	position: relative;
+	left:-100px;
+	top: 90px;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
