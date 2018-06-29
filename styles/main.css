@@ -111,12 +111,12 @@ ul,ol{
 }
 .slidervertical{
 	width:1349px;
-	height:300px ;
+	height:400px ;
 }
 .slidervertical img{
 	height: 700px;
 	width: 1349px;
-	animation: slidervertical 4s infinite alternate;
+	animation: slidervertical 3s infinite alternate;
 }
 
 .slider ul{
@@ -135,21 +135,6 @@ ul,ol{
 @keyframes slidervertical{
 	0%{margin-top:  0px;}
 	10%{margin-top: 0px;}
-
-	15%{margin-top: -50px;}
-	25%{margin-top: -50px;}
-
-	30%{margin-top: -100px;}
-	40%{margin-top: -100px;}
-
-	45%{margin-top: -150px;}
-	55%{margin-top: -150px;}
-
-	60%{margin-top: -200px;}
-	70%{margin-top: -200px;}
-
-	75%{margin-top: -250px;}
-	85%{margin-top: -250px;}
 
 	90%{margin-top: -300px;}
 	100%{margin-top:-300px;}
@@ -310,7 +295,7 @@ a{
 	width: 900px;
 	height: 515px;
 	bottom: 0;
-	top: 1500px;
+	top: 1700px;
 	right: 0;
 	left: 50px;
 	margin: auto;
@@ -354,7 +339,7 @@ a{
 
 }
 .infopeliculas{
-	width: 1280px;
+	width: 980px;
 	height: 300px;
 }
 .verp{
