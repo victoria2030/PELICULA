@@ -24,8 +24,10 @@ body{
 	background-color:black; 
 	font-family:arial, helveltica,san-serif; 
 	z-index: 6;
+	text-align:center;
 }
  #ind2{
+	text-align:center;
 	
 	width: 1349px;
 	height:60px; 
@@ -46,7 +48,7 @@ ul,ol{
 	z-index: 2;
 	list-style: none;
 	width:1300px; 
-	margin-left: 40px;
+
 }
 
 .nad li a{
@@ -97,15 +99,26 @@ ul,ol{
     margin:0 auto;
     float: left;  
 }
-.slider{
-
-	width: 1200px;
-	margin-left: 80px;
+.slider, .slidervertical{
 	top: 0px;
 	overflow: hidden;
 	z-index: 6;
 
 }
+.slider{
+	width: 1200px;
+	margin-left: 80px;
+}
+.slidervertical{
+	width:1349px;
+	height:300px ;
+}
+.slidervertical img{
+	height: 700px;
+	width: 1349px;
+	animation: slidervertical 8s infinite alternate;
+}
+
 .slider ul{
     list-style: none;
     width: 2800px;
@@ -119,8 +132,28 @@ ul,ol{
 	border-radius:10px; 
 	z-index: 7;
 } 
+@keyframes slidervertical{
+	0%{margin-top:  0px;}
+	10%{margin-top: 0px;}
 
+	15%{margin-top: -50px;}
+	25%{margin-top: -50px;}
 
+	30%{margin-top: -90px;}
+	40%{margin-top: -90px;}
+
+	45%{margin-top: -130px;}
+	55%{margin-top: -130px;}
+
+	60%{margin-top: -180px;}
+	70%{margin-top: -180px;}
+
+	75%{margin-top: -210px;}
+	85%{margin-top: -210px;}
+
+	90%{margin-top: -330px;}
+	100%{margin-top:-330px;}
+}
 @keyframes slider{
 	0%{margin-left:  0px;}
 	10%{margin-left: 0px;}
@@ -277,7 +310,7 @@ a{
 	width: 900px;
 	height: 515px;
 	bottom: 0;
-	top: 870px;
+	top: 1500px;
 	right: 0;
 	left: 50px;
 	margin: auto;
